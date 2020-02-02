@@ -1,0 +1,13 @@
+body {
+    background-color: #ced6e0;
+}
+
+.sign {
+    text-align: center;
+    margin-top: 150px;
+    /*border-style: groove;*/
+}
+
+h1 {
+    text-align: center;
+}

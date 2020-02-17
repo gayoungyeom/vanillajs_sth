@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+      <h2>CALCULATOR</h2>
+    <div class="js-calForm">
+        <input class="js-result" type="text" readonly />
+        <button class="ac" type="button" value="c" onclick="reset('c')">c</button>
+        <br>
+        <button type="button" value="7" onclick="getValue(7)">7</button>
+        <button type="button" value="8" onclick="getValue(8)">8</button>
+        <button type="button" value="9" onclick="getValue(9)">9</button>
+        <button class="operator js-plus" type="button" value="+" onclick="getValue('+')">+</button>
+        <br>
+        <button type="button" value="4" onclick="getValue(4)">4</button>
+        <button type="button" value="5" onclick="getValue(5)">5</button>
+        <button type="button" value="6" onclick="getValue(6)">6</button>
+        <button class="operator" type="button" value="-" onclick="getValue('-')">-</button>
+        <br>
+        <button type="button" value="1" onclick="getValue(1)">1</button>
+        <button type="button" value="2" onclick="getValue(2)">2</button>
+        <button type="button" value="3" onclick="getValue(3)">3</button>
+        <button class="operator" type="button" value="*" onclick="getValue('*')">*</button>
+        <br>
+        <button type="button" value="0" onclick="getValue(0)">0</button>
+        <button class="equals" type="button" value="=" onclick="paintResult('=')">=</button>
+        <button class="operator" type="button" value="/" onclick="getValue('/')">/</button>
+
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

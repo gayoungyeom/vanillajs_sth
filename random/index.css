@@ -1,0 +1,27 @@
+body {
+    background-color: #b2bec3;
+}
+
+.result {
+    color: #d63031;
+}
+
+input[type="range" i] {
+    -webkit-appearance: slider-horizontal;
+    color: rgb(196, 196, 196);
+    cursor: default;
+    padding: initial;
+    border: initial;
+    margin: 2px;
+}
+
+.myNum {
+    width: 90px;
+    border-radius: 3px;
+}
+
+button {
+    width: 50px;
+    text-align: center;
+    border-radius: 3px;
+}
